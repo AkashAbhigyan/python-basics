@@ -13,3 +13,15 @@ print(sorted(tel))#prints a sorted list of the keys in the dictionary
 
 square = {x: x**2 for x in (2, 4, 6)}
 print(square)#prints the dictionary of squares
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
+
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+
+questions = ['name', 'quest', 'favorite color']
+answers = ['lancelot', 'the holy grail', 'blue']
+for q, a in zip(questions, answers):
+    print('What is your {0}?  -It is {1}.'.format(q, a))

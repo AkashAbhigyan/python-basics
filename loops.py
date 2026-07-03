@@ -62,3 +62,6 @@ for n in range(0,101):
         o += n
 print("Sum of even numbers is-",m)
 print("Sum of odd numbers is-",o)
+
+for i in reversed(range(1, 10, 2)):
+    print(i)
