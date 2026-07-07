@@ -23,3 +23,5 @@ with open('D:\Learning\Github\simple.txt', "r") as file:
 
 with open('D:\Learning\Github\simple.txt', "w") as file:
     file.write("Hello Python")
+
+    
