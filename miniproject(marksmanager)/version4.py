@@ -37,17 +37,14 @@ while True:
 
         elif choice == 3:
             student = input("Enter student name:")
-            student_found = False
             with open(r'D:\Learning\Github\simple.txt', "r") as file:
                 for line in file:
                     if student.capitalize() == line.split(":")[0]:
-                        student_found = True
+                        print(line.strip())
                         break
                 else:
                     print("Student record not found.")
-                    break
-                print(line.strip())
-                    
+    
         elif choice == 4:
             print("Thank you:")
             break
