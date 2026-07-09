@@ -55,6 +55,37 @@ student1.details()
 student2.details()
 student3.details()
 
+class Car:
+    def __init__(self,brand,model,year):
+        self.brand = brand
+        self.model = model
+        self.age = year
 
+    def details(self):
+        print(f"Brand:{self.brand}\nModel:{self.model}\nYear:{self.age}")
 
+car1 = Car("Audi","S11","2011")
+car2 = Car("Mercedez","A9","2009")
+car3 = Car("Ferrari","N19","1996")
+
+car1.details()
+car2.details()
+car3.details()
+        
+class Book:
+    def __init__(self,title,author,price):
+        self.name = title
+        self.author = author
+        self.cost = price
+
+    def details(self):
+        print(f"Title:{self.name}\nAuthor:{self.author}\nPrice:{self.cost}")
+
+book1 = Book("The Alchemist","Paulo Coelho","Rs.300")
+book2 = Book("Ayomic Habits","James Clear","Rs.500")
+book3 = Book("The Monk Who Sold His Ferrari","Robin Sharma","Rs.350")
+
+book1.details()
+book2.details()
+book3.details()
         
